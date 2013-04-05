@@ -12,7 +12,7 @@ From here on, this guide assumes you are already familiar with the basic
 design and functionality of HDFS, Hadoop MapReduce, and Java SE 6. Users
 who are also familiar with [Avro][avro], data serialization techniques,
 common compression algorithms (e.g. gzip, snappy), advanced Hadoop MapReduce
-topics (e.g. input split calculation), and tranditional data management
+topics (e.g. input split calculation), and traditional data management
 topics (e.g. partitioning schemes, metadata management) will benefit even more.
 
 [avro]: http://avro.apache.org "Apache Avro"
@@ -30,7 +30,7 @@ information about API compatibility guarantees.
 
 The CDK Data module is a set of APIs for interacting with datasets in the
 Hadoop ecosystem. Specifically built to simplify direct reading and writing
-of datasets in storage subsystems such as the Hadoop Distributed FileSystem
+of datasets in storage subsystems such as the Hadoop Distributed File System
 (HDFS), the Data module provides familiar, stream-oriented APIs, that remove the
 complexity of data serialization, partitioning, organization, and metadata
 system integration. These APIs do not replace or supersede any of the existing
